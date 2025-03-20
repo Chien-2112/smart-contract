@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >= 0.7.0 < 0.9.0;
 
+import "../ERC_721/ERC721.sol";
+
 // English Auction - Phiên đấu giá kiểu Anh
 contract EnglishAuction {
     event Start();

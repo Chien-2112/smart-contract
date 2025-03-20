@@ -38,8 +38,8 @@ contract ERC20 is IERC20 {
         return _balances[_account];
     }
 
-    function allowance(address owner, address spender) 
-        external view returns(uint256) 
+    function allowance(address owner, address spender)
+        external view returns(uint256)
     {
         return allowances[owner][spender];
     }

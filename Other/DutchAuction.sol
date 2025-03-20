@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >= 0.7.0 < 0.9.0;
 
+import "../ERC_721/ERC721.sol";
+
 // Dutch Auction - Phiên đấu giá Hà Lan
 contract DutchAuction {
     IERC721 public immutable nft;
